@@ -11,3 +11,11 @@ PROFILE.md
 cover-letters/
 *.private.*
 data/
+
+# Secrets and per-machine config: never commit.
+# .env holds DATABASE_URL (includes the Supabase password).
+# .mcp.json holds this machine's Supabase project ref and MCP scoping.
+.env
+.env.*
+!.env.example
+.mcp.json
