@@ -1,0 +1,15 @@
+[project]
+name = "mcp-jobhunt"
+version = "0.1.0"
+description = "MCP server over a job-application tracker"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anyio>=4.15.1",
+    "mcp[cli]>=2.2.0",
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

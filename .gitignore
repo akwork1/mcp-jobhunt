@@ -1,0 +1,13 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Private data: never commit the real tracker, letters or profile.
+# The server reads them via JOBHUNT_TRACKER; the repo ships examples/ only.
+TRACKER.md
+PROFILE.md
+cover-letters/
+*.private.*
+data/
